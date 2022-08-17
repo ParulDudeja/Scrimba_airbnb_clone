@@ -34,13 +34,34 @@ section {
 
 .hero--header {
   margin-bottom: 16px;
-  font-size: 36px;
+  font-size: 2.6rem;
 }
 
 .hero--text {
   align-self: flex-start;
   margin-top: 0;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1.3rem;
   line-height: 1.1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hero--image {
+    max-width: 100%;
+  }
+  .hero--header {
+    font-size: 2.3rem;
+  }
+  .hero--text {
+    font-size: 1rem;
+    max-width: 80%;
+    text-align: justify;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green;
+  }
 }
