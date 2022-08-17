@@ -1,7 +1,7 @@
 import React from "react";
 // import ReactDom from 'react-dom'
 import logo from "../img/airbnlogo.png";
-import styleSheet from "../css/style.css";
+import "../css/style.css";
 
 export default function Navbar() {
   return (

@@ -12,6 +12,15 @@ nav {
   padding: 20px 36px;
   box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
 }
+
+.lightGrey {
+  color: #918e9b;
+}
+
+.boldBlack {
+  color: #000;
+  font-weight: bold;
+}
 .nav--logo {
   max-width: 100%;
 }
@@ -43,6 +52,22 @@ section {
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.1;
+}
+
+.card {
+  width: 11rem;
+  font-size: 0.8rem;
+}
+.card--image {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+.card--star {
+  height: 1rem;
 }
 
 /* Extra small devices (phones, 600px and down) */

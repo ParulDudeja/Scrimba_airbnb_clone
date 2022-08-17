@@ -1,6 +1,6 @@
 import React from "react";
 import gridImage from "../img/Grid_image_set.png";
-import styleSheet from "../css/style.css";
+import "../css/style.css";
 
 export default function Hero() {
   return (
