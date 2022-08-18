@@ -5,7 +5,6 @@ import starImage from "../img/star1.png";
 import dataCard from "../dataCard";
 
 export default function Card(props) {
-  const data = dataCard.map((val) => console.log(data));
   return (
     <div className="card">
       <img
