@@ -3,13 +3,13 @@ import "./App.css";
 import Card from "./Components/Card";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
-import dataCard from "./dataCard";
+import data from "./data";
 
 function App() {
-  const cards = dataCard.map((item) => {
+  const cards = data.map((item) => {
     return (
       <Card
-        img={item.coverImg}
+        img={item.img}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
         location={item.location}
