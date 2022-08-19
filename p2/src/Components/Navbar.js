@@ -1,6 +1,6 @@
 import React from "react";
 // import ReactDom from 'react-dom'
-import logo from "../img/airbnlogo.png";
+import logo from "../imga/airbnlogo.png";
 import "../css/style.css";
 
 export default function Navbar() {

@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/style.css";
 
-import starImage from "../img/star1.png";
+import starImage from "../imga/star1.png";
 // import dataCard from "../dataCard";
 
 export default function Card(props) {

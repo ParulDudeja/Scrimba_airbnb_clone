@@ -9,7 +9,7 @@ function App() {
   const cards = data.map((item) => {
     return (
       <Card
-        img={item.img}
+        img={item.coverImg}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
         location={item.location}
@@ -23,7 +23,7 @@ function App() {
       {/* <h1>Hello From App.js</h1> */}
       <Navbar />
       <Hero />
-      {cards}
+      <section className="cards-list">{cards}</section>
     </div>
   );
 }
